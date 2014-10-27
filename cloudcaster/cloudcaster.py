@@ -944,38 +944,39 @@ for confelb in conf['elbs']:
 #
 # BLOCK DEVICE MAPPINGS - http://aws.amazon.com/ec2/instance-types/
 #
-bdmapping={}
-bdmapping['c1.medium'] = 1
-bdmapping['c1.xlarge'] = 1
-bdmapping['c3.2xlarge'] = 2
-bdmapping['c3.4xlarge'] = 2
-bdmapping['c3.8xlarge'] = 2
-bdmapping['c3.large'] = 2
-bdmapping['c3.xlarge'] = 2
-bdmapping['cc2.8xlarge'] = 4
-bdmapping['cg1.4xlarge'] = 2
-bdmapping['cr1.8xlarge'] = 2
-bdmapping['g2.2xlarge'] = 1
-bdmapping['hi1.4xlarge'] = 2
-bdmapping['hs1.8xlarge'] = 24
-bdmapping['i2.2xlarge'] = 2
-bdmapping['i2.4xlarge'] = 4
-bdmapping['i2.8xlarge'] = 8
-bdmapping['i2.xlarge'] = 1
-bdmapping['m1.large'] = 2
-bdmapping['m1.medium'] = 1
-bdmapping['m1.small'] = 1
-bdmapping['m1.xlarge'] = 4
-bdmapping['m2.2xlarge'] = 1
-bdmapping['m2.4xlarge'] = 2
-bdmapping['m2.xlarge'] = 1
-bdmapping['m3.2xlarge'] = 2
-bdmapping['m3.large'] = 1
-bdmapping['m3.medium'] = 1
-bdmapping['m3.xlarge'] = 2
-bdmapping['t2.micro'] = 0
-bdmapping['t2.small'] = 0
-bdmapping['t2.medium'] = 0
+bdmapping = {
+  'c1.medium': 1,
+  'c1.xlarge': 1,
+  'c3.2xlarge': 2,
+  'c3.4xlarge': 2,
+  'c3.8xlarge': 2,
+  'c3.large': 2,
+  'c3.xlarge': 2,
+  'cc2.8xlarge': 4,
+  'cg1.4xlarge': 2,
+  'cr1.8xlarge': 2,
+  'g2.2xlarge': 1,
+  'hi1.4xlarge': 2,
+  'hs1.8xlarge':24,
+  'i2.2xlarge': 2,
+  'i2.4xlarge': 4,
+  'i2.8xlarge': 8,
+  'i2.xlarge': 1,
+  'm1.large': 2,
+  'm1.medium': 1,
+  'm1.small': 1,
+  'm1.xlarge': 4,
+  'm2.2xlarge': 1,
+  'm2.4xlarge': 2,
+  'm2.xlarge': 1,
+  'm3.2xlarge': 2,
+  'm3.large': 1,
+  'm3.medium': 1,
+  'm3.xlarge': 2,
+  't2.micro': 0,
+  't2.small': 0,
+  't2.medium': 0
+}
 
 def find_amibyname(name, amis):
   for a in amis:
