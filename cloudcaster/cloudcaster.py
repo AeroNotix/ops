@@ -47,14 +47,9 @@ import copy
 from pprint import pprint
 from collections import OrderedDict
 
-if 'AWS_ACCESS_KEY' in os.environ:
-  aws_key = os.environ['AWS_ACCESS_KEY']
-else:
-  aws_key = None
-if 'AWS_SECRET_KEY' in os.environ:
-  aws_secret = os.environ['AWS_SECRET_KEY']
-else:
-  aws_secret = None
+
+aws_key = os.environ.get('AWS_ACCESS_KEY')
+aws_secret = os.environ.get('AWS_SECRET_KEY')
 
 vpc_subnetids = []
 vpc_pubsubnetids = []
