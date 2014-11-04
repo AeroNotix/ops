@@ -10,7 +10,7 @@ setup(
     name='aws-ops',
     author="Chris Maxwell",
     author_email="foo@bar.com",
-    version='0.1',
+    version='0.5',
     description="Building special snowflakes consistently",
     scripts=[
         "cloudcaster/cloudcaster.py",
