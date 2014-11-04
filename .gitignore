@@ -1,3 +1,7 @@
 /build/
 /dist/
 /ops.egg-info/
+/aws_ops.egg-info/
+/bin/
+/include/
+/lib/
