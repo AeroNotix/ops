@@ -357,3 +357,7 @@ for app in conf['apps']:
   print "Updating Autoscaling Group Launch Config %s -> %s" % (ag.launch_config_name, lc.name)
   ag.launch_config_name = lc.name
   req = ag.update()
+
+
+def main():
+  pass

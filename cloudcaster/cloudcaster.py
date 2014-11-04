@@ -2129,3 +2129,7 @@ for confelb in conf['elbs']:
             zone.update_cname(myname, elb.dns_name)
     if verbose:
         print "DNS %s -> %s" % (myname, elb.dns_name)
+
+
+def main():
+  pass

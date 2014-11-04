@@ -296,3 +296,7 @@ if asgupdate and lc:
   sys.stdout.flush()
   asg.launch_config_name = lc.name
   asg.update()
+
+
+def main():
+  pass

@@ -171,3 +171,7 @@ if args.filename != None:
     os.chmod(args.filename, 0644)
   else:
     os.remove(outfile.name)
+
+
+def main():
+  pass

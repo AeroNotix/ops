@@ -442,3 +442,7 @@ for thisinst in oldinst:
 
   if startfirst:
       asg_remove_instance(thisinst, elbwait, True)
+
+
+def main():
+  pass

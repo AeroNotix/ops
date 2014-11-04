@@ -162,3 +162,7 @@ for lc_name in lcname_to_date:
             if args.sleep:
               time.sleep(float(SLEEP_MS/1000))
 
+
+
+def main():
+  pass

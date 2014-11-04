@@ -215,3 +215,7 @@ for app in conf['apps']:
             print "--> %s:%s" % ( ami.name, ami.id )
 
 
+
+
+def main():
+  pass
